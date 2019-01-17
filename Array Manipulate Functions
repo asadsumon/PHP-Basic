@@ -1,0 +1,35 @@
+<?php 
+//Remove elements from array();
+array_pop() - Remove last element from the array. 
+array_shift() - Remove first element from the array.
+
+//Add new elements in the an array()
+array_push() - Add new element as a last element of an array();
+array_unshif() - Add new element as a first element of an array();
+
+//Convert Sting to Array - Function used 
+explode();
+join();
+preg_split() - use this for multiple delimeter. 
+
+//Convert array() to string - Functions used
+serialize() vs unserialize()
+json_encode() vs json_decode() - JavaScript Object Notetion(json);
+
+//To remove data from an array()
+unset() - function used to removed data from the data. 
+
+//Extract array()
+array_slice() - use this function to extract exisitng array to new array but the existing array will not changed. 
+array_splice() - use this function to extract exisitng array to new array but the existing array will completely changed.
+
+//Merge array elements
+array_merge() - use to join 2 or more array elements in a new array. 
+
+//Array sort functions
+sort()
+asort()
+rsort()
+arsort()
+ksort()
+krsort()
